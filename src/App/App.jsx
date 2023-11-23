@@ -23,6 +23,12 @@ function App() {
       price: 5000,
       quantity: 1,
     },
+    {
+      name: 'Cucurucho',
+      description: '',
+      price: 100,
+      quantity: 8,
+    },
   ]);
 
   useEffect(() => {
