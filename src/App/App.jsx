@@ -6,10 +6,22 @@ import { Cart } from './components/Cart';
 function App() {
   const [cart, setCart] = useState([
     {
-      name: 'Banana',
-      description: 'Bananas por kg',
-      price: 545,
+      name: 'Pizza Muzzarella',
+      description: '10 rodajas',
+      price: 2500,
       quantity: 3,
+    },
+    {
+      name: 'Coca Cola',
+      description: '2 litros',
+      price: 1000,
+      quantity: 2,
+    },
+    {
+      name: 'Helado',
+      description: '1 kilo',
+      price: 5000,
+      quantity: 1,
     },
   ]);
 
